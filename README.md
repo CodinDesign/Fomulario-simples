@@ -32,4 +32,8 @@ Se estiver certo, aparece uma mensagem dizendo que o login foi feito com sucesso
 
 ---
 
-**CodinDesign**# 
+Se quiser, é só abrir e testar. É um jeito simples e rápido de ver um formulário de login funcionando na prática.
+
+---
+
+**CodinDesign**
