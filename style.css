@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Fjalla+One&family=Share+Tech&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #013220c2, #02644096, #03a65a86, #7efc0034);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Caixa-Login {
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 1px lightgreen,
+    20px 10px 20px 1px green
+    ;
+    background-color: #fff;
+    padding: 50px;
+    width: 25vw;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.check-lembrar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    margin: 10px 0;
+}
+
+.check-lembrar input[type="checkbox"] {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.check-lembrar label {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: green;
+    border-bottom: 2px solid green;   
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
